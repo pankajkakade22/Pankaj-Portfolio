@@ -180,11 +180,12 @@ function App() {
               </a>
             ))}
             <a
-              href="mailto:pankajkakade89@gmail.com?subject=Resume%20Request%20from%20Portfolio"
+              href="/Pankaj-Resume.pdf"
+              download
               className="group inline-flex items-center gap-2 rounded-full bg-aurora px-6 py-2 font-semibold text-night shadow-glow transition hover:scale-[1.02]"
             >
               <FiDownloadCloud />
-              Request Resume PDF
+              Download Resume (PDF)
             </a>
           </div>
         </motion.header>
